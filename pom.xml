@@ -7,6 +7,10 @@
   <version>1.0-SNAPSHOT</version>
   <name>Tcalc</name>
   <url>http://maven.apache.org</url>
+	<build>
+    <sourceDirectory>src/main</sourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
+	</build>
   
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
